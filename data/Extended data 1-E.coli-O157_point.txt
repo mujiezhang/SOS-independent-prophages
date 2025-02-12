@@ -1,0 +1,2 @@
+name	HI	state
+ecoli-8624.faa	11.28	yes
