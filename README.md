@@ -72,4 +72,4 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
 - We use the script `enrichment_analysis.py` to perform environment enrichment analysis. The fold enrichment was calculated by dividing the proportion of SdPs from a specific environment by the proportion of that environment within all environments.
 
 ## For Figure
-1. 
+
