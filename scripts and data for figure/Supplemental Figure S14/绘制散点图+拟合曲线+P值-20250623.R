@@ -1,5 +1,3 @@
-setwd('E:/课题/4.tem-induce/imeta/simulated_genomes/mock_genome')
-#df1=read.table('calculate_rate_distribution.tsv',head=TRUE,sep='\t')
 library(ggplot2)
 library(dplyr)
 library(ggpubr)
@@ -173,4 +171,4 @@ GH
 
 p=p1 + p2 + p3 +p4 + p5 + p6 +p7 + p8 +  plot_layout(design = layout)
 p
-ggsave(file="completeness-contamination-with-p-value-20250623.pdf",device = cairo_pdf, width=5, height=10,p)
+ggsave(file="completeness-contamination-with-p-value.pdf",device = cairo_pdf, width=5, height=10,p)
