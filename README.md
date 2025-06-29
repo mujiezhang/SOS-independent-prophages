@@ -4,10 +4,14 @@ This is the script repository for the following manuscript:
 Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SOS-independent prophages prevail in the bacterial genomes. xxx (2025)
 
 # Documents
+
 ## For analysis:
-1. We use the pipeline we developed, PSOSP, to classify prophages into SOS-dependent prophages (SdP), SOS-uncertain prophages (SuPs), and SOS-independent prophages (SiPs). The PSOSP scripts and usage instructions are available at https://github.com/mujiezhang/PSOSP. The PSOSP web server is available at: https://vee-lab.sjtu.edu.cn/PSOSP/index.html.
+
+### 1. Prophage categorization
    
-2. vOTU clustering based on ANI
+- We use the pipeline we developed, PSOSP, to classify prophages into SOS-dependent prophages (SdP), SOS-uncertain prophages (SuPs), and SOS-independent prophages (SiPs). The PSOSP scripts and usage instructions are available at https://github.com/mujiezhang/PSOSP. The PSOSP web server is available at: https://vee-lab.sjtu.edu.cn/PSOSP/index.html.
+   
+### 2. vOTU clustering based on ANI
    
 - 我们使用CheckV提供的[pipeline](https://bitbucket.org/berkeleylab/checkv/src/master/)进行了本文中vOTU的聚类，该pipeline基于all-versus-all BLASTn search和Leiden algorithm，following MIUViG guidelines (95% average nucleotide identity (ANI); 85% aligned fraction (AF)
   - step1: all-vs-all blastn
@@ -24,7 +28,7 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
     python aniclust.py --fna all_virus.fna --ani my_ani.tsv --out my_clusters.tsv --min_ani 95 --min_tcov 85 --min_qcov 0
     ```
      
-3.  Genus and Family level clustering based on AAI
+### 3.  Genus and Family level clustering based on AAI
 
 - 我们使用snayfach等人提供的[pipeline](https://github.com/snayfach/MGV/tree/master/aai_cluster)进行了本文中genus和family水平的聚类，该pipeline基于all-versus-all BLASTp search和MCL
   - step1: all-vs-all blastp
@@ -50,22 +54,22 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
     ```
     我们修改了genus过滤参数中的--min_aai:`--min_aai 40`→`--min_aai 50`, following the parameters in their [paper](https://www.nature.com/articles/s41564-021-00928-6)
 
-4. Protein sharing network analysis of viral populations was performed by vConTACT2
+### 4. Protein sharing network analysis of viral populations was performed by vConTACT2
    ```
    vcontact2_gene2genome -p all_votu_and_ICTV_phages.faa -o gene2genome.csv -s Prodigal-FAA
    vcontact2 -r all_votu_and_ICTV_phages.faa -p gene2genome.csv --db None -o votu_ICTV_vcontact2 -t 64
    ```
 
-5. Calculate the weighted Gene Repertoire Relatedness (wGRR)
+### 5. Calculate the weighted Gene Repertoire Relatedness (wGRR)
 
 - 我们参考J. A. M. d. Sousa等人[paper](https://academic.oup.com/nar/article/51/6/2759/7068371?login=true)中的计算公式计算了本文中病毒间的wGRR
    ```
    diamond blastp --threads 50 --db viral_proteins.dmnd --out diamond.tsv --evalue 0.0001 --max-target-seqs 100000 --query  all_votu.faa --id  35 --query-cover 50 --subject-cover 50
    python calculate_wGRR.py diamond.tsv all_votu.faa result_file
    ```
-6. Enrichment analysis
+### 6. Enrichment analysis
    
-   We use the script `enrichment_analysis.py` to perform environment enrichment analysis. The fold enrichment was calculated by dividing the proportion of SdPs from a specific environment by the proportion of that environment within all environments.
+- We use the script `enrichment_analysis.py` to perform environment enrichment analysis. The fold enrichment was calculated by dividing the proportion of SdPs from a specific environment by the proportion of that environment within all environments.
 
 ## For Figure
 1. 
