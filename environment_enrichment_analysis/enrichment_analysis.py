@@ -9,8 +9,8 @@ import numpy as np
 from statsmodels.stats.multitest import multipletests
 
 # Define file paths
-input_file = r'E:\课题\4.tem-induce\new-round-refseq\figure\figure2\4\chiplot\env-distribution2.tsv'
-output_file = r'E:\课题\4.tem-induce\new-round-refseq\figure\figure2\4\chiplot\env-distribution-enrichment-adjust.tsv'
+input_file = r'env-distribution2.tsv'
+output_file = r'env-distribution-enrichment-adjust.tsv'
 
 # Global statistical parameters
 total = 49346
