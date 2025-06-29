@@ -46,6 +46,6 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
     mcl genus_edges.tsv -te 8 -I 2.0 --abc -o genus_clusters.txt
     mcl family_edges.tsv -te 8 -I 1.2 --abc -o family_clusters.txt
     ```
-    我们修改了genus过滤参数中的--min_aai:`--min_aai 40`→`--min_aai 50`, following the parameters in their paper [paper](https://www.nature.com/articles/s41564-021-00928-6)
+    我们修改了genus过滤参数中的--min_aai:`--min_aai 40`→`--min_aai 50`, following the parameters in their [paper](https://www.nature.com/articles/s41564-021-00928-6)
 ## For Figure
 
