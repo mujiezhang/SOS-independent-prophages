@@ -1,0 +1,20 @@
+UV	recA	lexA	fpsA	fpsB	fpsE	fpsR
+diameter 1	6.223	4.558	1.004	0.2	0.302	0.251
+diameter 2	8.37	4.518	1.018	0.194	0.322	0.255
+diameter 3	5.013	3.418	0.957	0.237	0.219	0.146
+p-value	0.03	0.0136	0.741	0.00029	0.00192	0.00207
+star	*	*				
+						
+MMC	recA	lexA	fpsA	fpsB	fpsE	fpsR
+diameter 1	4.814	6.733	0.857	0.372	0.693	0.32
+diameter 2	5.434	7.198	0.877	0.366	0.563	0.424
+diameter 3	3.84	6.417	1.088	0.359	0.369	0.536
+p-value	0.00817	0.00438	0.52211	0.06817	0.10444	0.0878
+star	**	**				
+						
+LexA	recA	lexA	fpsA	fpsB	fpsE	fpsR
+diameter 1	7.196	0	1.186	0.569	0.617	0.472
+diameter 2	5.428	0	1.192	0.469	0.824	0.364
+diameter 3	6.414	0	0.995		0.522	0.558
+p-value	0.00903	/	0.19455	0.06594	0.06055	0.01081
+star	**					
