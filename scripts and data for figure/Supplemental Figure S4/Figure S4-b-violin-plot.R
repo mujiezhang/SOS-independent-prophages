@@ -8,7 +8,6 @@ wp22=read.table('wp2_point.tsv',head=TRUE,sep='\t')
 p1<- ggplot(wp2,aes(x=name,y=HI))+
   geom_violin(trim=FALSE,fill='#d6dce5',alpha=0.5)+xlab(NULL)+ylab('Heterology Index')+
   theme_bw()+theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank(),legend.position = 'none')+
-  
   geom_jitter(wp2,mapping=aes(x=name,y=HI),width=0.1,size=3,alpha=0.5, color='grey',fill='grey')+
   geom_jitter(wp22,mapping=aes(x=name,y=HI,fill=state),shape=22,width=0.1,size=3,alpha=0.7,color='black')+
   scale_fill_manual(values = c('no'= "#ECB477",'yes'="#ACCDE8"))+
