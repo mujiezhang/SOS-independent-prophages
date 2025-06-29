@@ -62,6 +62,7 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
    diamond blastp --threads 50 --db viral_proteins.dmnd --out diamond.tsv --evalue 0.0001 --max-target-seqs 100000 --query  all_votu.faa --id  35 --query-cover 50 --subject-cover 50
    python calculate_wGRR.py diamond.tsv all_votu.faa result_file
    ```
-
+6. Enrichment analysis
+   
 ## For Figure
 
