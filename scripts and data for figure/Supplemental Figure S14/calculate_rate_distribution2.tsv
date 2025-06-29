@@ -1,0 +1,349 @@
+type	percentage	type2	ratio
+h_com	50	precision	61.98
+h_com	50	success rate	77.56
+h_com	51	precision	67.33
+h_com	51	success rate	80.32
+h_com	52	precision	65.91
+h_com	52	success rate	90.72
+h_com	53	precision	67.62
+h_com	53	success rate	79.55
+h_com	54	precision	64.17
+h_com	54	success rate	86.98
+h_com	55	precision	65.66
+h_com	55	success rate	82.5
+h_com	56	precision	66.81
+h_com	56	success rate	81.02
+h_com	57	precision	71
+h_com	57	success rate	76.24
+h_com	58	precision	63.64
+h_com	58	success rate	87.73
+h_com	59	precision	59.57
+h_com	59	success rate	84.84
+h_com	60	precision	63.38
+h_com	60	success rate	90.48
+h_com	61	precision	64.83
+h_com	61	success rate	77.91
+h_com	62	precision	65.02
+h_com	62	success rate	83.88
+h_com	63	precision	68.51
+h_com	63	success rate	88.73
+h_com	64	precision	66.67
+h_com	64	success rate	80.73
+h_com	65	precision	67.05
+h_com	65	success rate	79.64
+h_com	66	precision	65.29
+h_com	66	success rate	93.92
+h_com	67	precision	65.83
+h_com	67	success rate	86.02
+h_com	68	precision	63.64
+h_com	68	success rate	86.18
+h_com	69	precision	70.97
+h_com	69	success rate	86.92
+h_com	70	precision	69.87
+h_com	70	success rate	93.84
+h_com	71	precision	67.31
+h_com	71	success rate	79.08
+h_com	72	precision	67.47
+h_com	72	success rate	97.27
+h_com	73	precision	70.91
+h_com	73	success rate	79.72
+h_com	74	precision	66.22
+h_com	74	success rate	89.29
+h_com	75	precision	67.4
+h_com	75	success rate	85.45
+h_com	76	precision	67.24
+h_com	76	success rate	93.01
+h_com	77	precision	63.59
+h_com	77	success rate	95.04
+h_com	78	precision	60.3
+h_com	78	success rate	96.74
+h_com	79	precision	70.15
+h_com	79	success rate	90.53
+h_com	80	precision	68.12
+h_com	80	success rate	94.74
+h_com	81	precision	65.78
+h_com	81	success rate	88.32
+h_com	82	precision	70.2
+h_com	82	success rate	96.76
+h_com	83	precision	72.41
+h_com	83	success rate	91.67
+h_com	84	precision	66.67
+h_com	84	success rate	98.97
+h_com	85	precision	66.12
+h_com	85	success rate	95.34
+h_com	86	precision	68.77
+h_com	86	success rate	98.23
+h_com	87	precision	65.42
+h_com	87	success rate	93.5
+h_com	88	precision	67.07
+h_com	88	success rate	96.86
+h_com	89	precision	65.35
+h_com	89	success rate	99.02
+h_com	90	precision	69.98
+h_com	90	success rate	97.1
+h_com	91	precision	67.99
+h_com	91	success rate	98.05
+h_com	92	precision	68.54
+h_com	92	success rate	98.61
+h_com	93	precision	73.96
+h_com	93	success rate	98.46
+h_com	94	precision	71.2
+h_com	94	success rate	97.95
+h_com	95	precision	70.62
+h_com	95	success rate	98.77
+h_com	96	precision	66.3
+h_com	96	success rate	99.46
+h_com	97	precision	68.12
+h_com	97	success rate	97.18
+h_com	98	precision	69.43
+h_com	98	success rate	98.44
+h_com	99	precision	72.85
+h_com	99	success rate	99.2
+h_com	100	precision	68.67
+h_com	100	success rate	96.51
+h_con	0	precision	68.34
+h_con	0	success rate	88.35
+h_con	1	precision	65.99
+h_con	1	success rate	91.89
+h_con	2	precision	69.91
+h_con	2	success rate	81.72
+h_con	3	precision	66.42
+h_con	3	success rate	94.13
+h_con	4	precision	71.07
+h_con	4	success rate	87.02
+h_con	5	precision	66.73
+h_con	5	success rate	95.49
+h_con	6	precision	71.04
+h_con	6	success rate	90.47
+h_con	7	precision	65.19
+h_con	7	success rate	87.54
+h_con	8	precision	68.93
+h_con	8	success rate	87.19
+h_con	9	precision	67.98
+h_con	9	success rate	91.65
+h_con	10	precision	65.68
+h_con	10	success rate	91.67
+h_con	11	precision	70.64
+h_con	11	success rate	94.24
+h_con	12	precision	68.35
+h_con	12	success rate	88.14
+h_con	13	precision	64.67
+h_con	13	success rate	91.3
+h_con	14	precision	64.28
+h_con	14	success rate	91.04
+h_con	15	precision	68.49
+h_con	15	success rate	94.62
+h_con	16	precision	65.55
+h_con	16	success rate	93.73
+h_con	17	precision	67.82
+h_con	17	success rate	90.73
+h_con	18	precision	66.74
+h_con	18	success rate	90.66
+h_con	19	precision	64.05
+h_con	19	success rate	91.25
+h_con	20	precision	66.42
+h_con	20	success rate	89.58
+v_com	50	precision	52.85
+v_com	50	success rate	86.52
+v_com	51	precision	57.14
+v_com	51	success rate	90.68
+v_com	52	precision	55.23
+v_com	52	success rate	91.07
+v_com	53	precision	55.82
+v_com	53	success rate	94.64
+v_com	54	precision	50.95
+v_com	54	success rate	92.69
+v_com	55	precision	57.11
+v_com	55	success rate	85.49
+v_com	56	precision	53.36
+v_com	56	success rate	93.83
+v_com	57	precision	55.09
+v_com	57	success rate	96.64
+v_com	58	precision	63.47
+v_com	58	success rate	87.34
+v_com	59	precision	61.4
+v_com	59	success rate	87.75
+v_com	60	precision	55.7
+v_com	60	success rate	91.12
+v_com	61	precision	51.28
+v_com	61	success rate	92.31
+v_com	62	precision	60.95
+v_com	62	success rate	94.88
+v_com	63	precision	62.52
+v_com	63	success rate	91.9
+v_com	64	precision	60.23
+v_com	64	success rate	95.01
+v_com	65	precision	61.7
+v_com	65	success rate	91.26
+v_com	66	precision	58.43
+v_com	66	success rate	87.62
+v_com	67	precision	59.33
+v_com	67	success rate	92.44
+v_com	68	precision	68.9
+v_com	68	success rate	93.15
+v_com	69	precision	69
+v_com	69	success rate	90.09
+v_com	70	precision	66.94
+v_com	70	success rate	85.74
+v_com	71	precision	68.08
+v_com	71	success rate	89.87
+v_com	72	precision	68.75
+v_com	72	success rate	88.48
+v_com	73	precision	66.53
+v_com	73	success rate	89.36
+v_com	74	precision	69.18
+v_com	74	success rate	90.24
+v_com	75	precision	68.26
+v_com	75	success rate	86.38
+v_com	76	precision	69.24
+v_com	76	success rate	92.21
+v_com	77	precision	67.5
+v_com	77	success rate	92.83
+v_com	78	precision	60.42
+v_com	78	success rate	85.13
+v_com	79	precision	70.89
+v_com	79	success rate	87.35
+v_com	80	precision	78.42
+v_com	80	success rate	84.76
+v_com	81	precision	65.05
+v_com	81	success rate	90.92
+v_com	82	precision	74.8
+v_com	82	success rate	93.72
+v_com	83	precision	72.29
+v_com	83	success rate	92.41
+v_com	84	precision	71.9
+v_com	84	success rate	92.72
+v_com	85	precision	77.87
+v_com	85	success rate	90.21
+v_com	86	precision	67.1
+v_com	86	success rate	84.16
+v_com	87	precision	70.62
+v_com	87	success rate	95.05
+v_com	88	precision	71.5
+v_com	88	success rate	96.62
+v_com	89	precision	73.8
+v_com	89	success rate	88.84
+v_com	90	precision	73.03
+v_com	90	success rate	87.84
+v_com	91	precision	72.78
+v_com	91	success rate	86.44
+v_com	92	precision	77.85
+v_com	92	success rate	93.17
+v_com	93	precision	80.54
+v_com	93	success rate	92.1
+v_com	94	precision	75.1
+v_com	94	success rate	88.32
+v_com	95	precision	77.29
+v_com	95	success rate	96.5
+v_com	96	precision	74.7
+v_com	96	success rate	93.17
+v_com	97	precision	81.5
+v_com	97	success rate	90.08
+v_com	98	precision	83.89
+v_com	98	success rate	92.76
+v_com	99	precision	83.19
+v_com	99	success rate	90.15
+v_com	100	precision	80.09
+v_com	100	success rate	90.95
+v_con	0	precision	64.82
+v_con	0	success rate	88.95
+v_con	1	precision	69.59
+v_con	1	success rate	90.65
+v_con	2	precision	65.56
+v_con	2	success rate	88.61
+v_con	3	precision	71.4
+v_con	3	success rate	89.34
+v_con	4	precision	68.67
+v_con	4	success rate	94.44
+v_con	5	precision	62.82
+v_con	5	success rate	95.29
+v_con	6	precision	66.29
+v_con	6	success rate	88.65
+v_con	7	precision	67
+v_con	7	success rate	89.82
+v_con	8	precision	68.91
+v_con	8	success rate	91.71
+v_con	9	precision	75.88
+v_con	9	success rate	88.92
+v_con	10	precision	68.54
+v_con	10	success rate	96.44
+v_con	11	precision	69.51
+v_con	11	success rate	84.15
+v_con	12	precision	68.29
+v_con	12	success rate	88.39
+v_con	13	precision	66.17
+v_con	13	success rate	86.58
+v_con	14	precision	68.89
+v_con	14	success rate	91.91
+v_con	15	precision	68.27
+v_con	15	success rate	90.48
+v_con	16	precision	60.17
+v_con	16	success rate	84.56
+v_con	17	precision	75.58
+v_con	17	success rate	87.68
+v_con	18	precision	71.54
+v_con	18	success rate	91.67
+v_con	19	precision	66.45
+v_con	19	success rate	92.16
+v_con	20	precision	66.47
+v_con	20	success rate	91.3
+v_con	21	precision	63.38
+v_con	21	success rate	94.67
+v_con	22	precision	65.28
+v_con	22	success rate	89.7
+v_con	23	precision	68.84
+v_con	23	success rate	92.94
+v_con	24	precision	67.24
+v_con	24	success rate	89.23
+v_con	25	precision	65.05
+v_con	25	success rate	89.45
+v_con	26	precision	66.77
+v_con	26	success rate	92.1
+v_con	27	precision	67.47
+v_con	27	success rate	95.43
+v_con	28	precision	66.93
+v_con	28	success rate	92.33
+v_con	29	precision	66.84
+v_con	29	success rate	91.71
+v_con	30	precision	65.56
+v_con	30	success rate	93.79
+v_con	31	precision	65.23
+v_con	31	success rate	87.85
+v_con	32	precision	66.67
+v_con	32	success rate	94.87
+v_con	33	precision	68.41
+v_con	33	success rate	95.77
+v_con	34	precision	62.78
+v_con	34	success rate	92.82
+v_con	35	precision	65.3
+v_con	35	success rate	93.06
+v_con	36	precision	70.6
+v_con	36	success rate	83.57
+v_con	37	precision	61.26
+v_con	37	success rate	87.33
+v_con	38	precision	67.46
+v_con	38	success rate	93.78
+v_con	39	precision	68.62
+v_con	39	success rate	85.36
+v_con	40	precision	68.63
+v_con	40	success rate	93.87
+v_con	41	precision	68.75
+v_con	41	success rate	92.15
+v_con	42	precision	67.24
+v_con	42	success rate	91.24
+v_con	43	precision	68.12
+v_con	43	success rate	90.87
+v_con	44	precision	66.75
+v_con	44	success rate	93.98
+v_con	45	precision	60.04
+v_con	45	success rate	88.64
+v_con	46	precision	71.05
+v_con	46	success rate	90.63
+v_con	47	precision	71.46
+v_con	47	success rate	89.59
+v_con	48	precision	63.14
+v_con	48	success rate	89.74
+v_con	49	precision	68.9
+v_con	49	success rate	90.36
+v_con	50	precision	64.84
+v_con	50	success rate	82.47
