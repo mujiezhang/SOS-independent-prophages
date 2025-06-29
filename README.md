@@ -5,7 +5,7 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
 
 # Document
 ## For analysis:
-1. The PSOSP scripts and usage instructions are available at https://github.com/mujiezhang/PSOSP.
+1. We use the pipeline we developed, PSOSP, to classify prophages into SOS-dependent prophages (SdP), SOS-uncertain prophages (SuPs), and SOS-independent prophages (SiPs). The PSOSP scripts and usage instructions are available at https://github.com/mujiezhang/PSOSP. The PSOSP web server is available at: https://vee-lab.sjtu.edu.cn/PSOSP/index.html.
 2. vOTU clustering based on ANI
    
 - 我们使用CheckV提供的[pipeline](https://bitbucket.org/berkeleylab/checkv/src/master/)进行了本文中vOTU的聚类，该pipeline基于all-versus-all BLASTn search和Leiden algorithm，following MIUViG guidelines (95% average nucleotide identity (ANI); 85% aligned fraction (AF)
