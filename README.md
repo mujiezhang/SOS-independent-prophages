@@ -116,10 +116,10 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
   
 - [**Supplemental Figure S10**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S10)
    - Fig S10 a/b/f由`FigureS10-a-b-f.R`完成，数据文件：`sdp-sip.txt` for genome size and completeness, `key-gene-data.tsv` for functional gene
-   - Fig S10 c对应数据为`functional_category_distribution.tsv`，注释文件为`functional_category_annotation.tsv`;Fig S10 d对应数据为`env-distribution.tsv`，注释文件为`env_annotation.tsv`;Fig S10 e对应数据为`host-distribution-top10-genus.tsv`，注释文件为`host-distribution-annotation.tsv`。可视化由[**Chiplot**](https://www.chiplot.online/#)完成
+   - Fig S10 c对应数据为`functional_category_distribution.tsv`，注释文件为`functional_category_annotation.tsv`;Fig S10 d对应数据为`env-distribution.tsv`，注释文件为`env_annotation.tsv`;Fig S10 e对应数据为`host-distribution-top10-genus.tsv`，注释文件为`host-distribution-annotation.tsv`。可视化由[**Chiplot**](https://www.chiplot.online/#)完成.
    
   
-- [**Supplemental Figure S11**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S11)
+- [Supplemental Figure S11](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S11)
    - 
   
 - [**Supplemental Figure S12**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S12)
