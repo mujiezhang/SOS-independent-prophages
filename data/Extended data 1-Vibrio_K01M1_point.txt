@@ -1,2 +1,0 @@
-name	HI	state
-Vibrio_K01M1.faa	18.38	no

@@ -1,2 +1,0 @@
-name	HI	state
-ecoli-HS.faa	5.67	yes

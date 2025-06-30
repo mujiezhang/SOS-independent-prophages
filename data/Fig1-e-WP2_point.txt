@@ -1,4 +1,0 @@
-name	HI	state
-wp2.faa	14.2	no
-wp2.faa	11.72	yes
-wp2.faa	15.47	no
