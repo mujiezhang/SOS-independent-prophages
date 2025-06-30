@@ -77,7 +77,7 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
    `Figure1-c-violin-plot.R`绘制Figure 1 c小提琴图，`ecoli-k12.faa_intergenic_region.fna_pattern.txt_whole_genome_HI.txt`包含Ecoli K12中所有PBSs的HI, `ecoli-k12_point.tsv`包含24个实验验证的Ecoli K12的PBSs.
 
 - [**Figure2**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Figure%202):
-   `Figure2-b-bac_cut_genus_30.tree`是Figture 2 b的进化树数据，`Figure2-b-annotation_for_tree.xlsx`是进化树的注释数据，进化树的可视化由[TVBOT](https://www.chiplot.online/tvbot.html)实现. `Figure2-e-violin-plot.R`绘制Figure2 e小提琴图，对应数据文件为``. Figure2 c网络数据文件超过github文件大小限制，如有需要，可通过邮件发送。
+   `Figure2-b-bac_cut_genus_30.tree`是Figture 2 b的进化树数据，`Figure2-b-annotation_for_tree.xlsx`是进化树的注释数据，进化树的可视化由[**TVBOT**](https://www.chiplot.online/tvbot.html)实现. `Figure2-e-violin-plot.R`绘制Figure2 e小提琴图，对应数据文件为``. Figure2 c网络数据文件超过github文件大小限制，如有需要，可通过邮件发送。
 
 - [**Supplemental Figure S1**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S1):
 
