@@ -1,0 +1,14 @@
+type	type2
+human	Host-associated
+animal	Host-associated
+plant	Host-associated
+other(h)	Host-associated
+soil	Terrestrial/sediment
+rhizosphere	Terrestrial/sediment
+sediment	Terrestrial/sediment
+other(t)	Terrestrial/sediment
+freshwater	Aquatic
+wastewater	Aquatic
+seawater	Aquatic
+other(a)	Aquatic
+other	Other

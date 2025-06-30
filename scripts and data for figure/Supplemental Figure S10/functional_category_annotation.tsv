@@ -1,0 +1,46 @@
+type	type2
+tail protein	tail
+minor tail protein	tail
+tail fiber protein	tail
+tail length tape measure protein	tail
+baseplate wedge subunit	tail
+portal protein	head & packaging
+terminase large subunit	head & packaging
+terminase small subunit	head & packaging
+major head protein	head & packaging
+virion structural protein	head & packaging
+HNH endonuclease	nucleotide metabolism
+RecA filament binding protein DinI	nucleotide metabolism
+RusA-like Holliday junction resolvase	nucleotide metabolism
+replication initiation O-like	nucleotide metabolism
+replication initiation protein	nucleotide metabolism
+transcriptional repressor	transcription regulation
+transcriptional regulator	transcription regulation
+CII-like transcriptional activator	transcription regulation
+anti-termination protein Q-like	transcription regulation
+anti-repressor Ant	transcription regulation
+integrase	integration & excision
+transposase	integration & excision
+excisionase	integration & excision
+excisionase and transcriptional regulator	integration & excision
+Cox-like excisionase and repressor	integration & excision
+tail completion or Neck1 protein	connector
+head-tail adaptor Ad1	connector
+tail terminator	connector
+head closure Hc1	connector
+head closure	connector
+endolysin	lysis
+holin	lysis
+Rz-like spanin	lysis
+holin/anti-holin	lysis
+amidase	lysis
+Ren-like exclusion protein	"moron, AMG,host takeover"
+membrane protein	"moron, AMG,host takeover"
+MokW-like host killing	"moron, AMG,host takeover"
+gam-like host nuclease inhibitor	"moron, AMG,host takeover"
+cell division inhibitor	"moron, AMG,host takeover"
+DNA methyltransferase	other
+DksA-like zinc-finger protein	other
+Lom outer membrane protein	other
+Kil protein for bacterial septation inhibition	other
+lipoprotein	other
