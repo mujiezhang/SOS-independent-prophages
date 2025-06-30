@@ -95,21 +95,28 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
      
 - [**Supplemental Figure S4**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S4)
    - Fig S4 c WP2小提琴图由`Figure S4-b-violin-plot.R`完成，对应数据文件为`wp2.faa_intergenic_region.fna_pattern.txt_whole_genome_HI.txt`和`wp2_point.tsv`
-   - Fig S4 c中数据文件为control组：`C-1_sorted.tdf`和`C-2_sorted.tdf`, MIMIC组：`M-1_sorted.tdf`,`M-2_sorted.tdf`,和`M-3_sorted.tdf`, 可视化由[IGV](https://igv.org/)实现
+   - Fig S4 c中数据文件为control组：`C-1_sorted.tdf`和`C-2_sorted.tdf`, MIMIC组：`M-1_sorted.tdf`,`M-2_sorted.tdf`,和`M-3_sorted.tdf`, 可视化由[**IGV**](https://igv.org/)实现
    - Fig S4 d中VIP-Seq analysis的数据文件为`Figure S4-d. bar-plot-data.tsv`
   
 - [**Supplemental Figure S5**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S5)
    - Fig S5 b/d/e 由`Figure S5-b-d-e.R`完成，对应数据文件：`class-distribution.tsv` for b, `1-6-cluster.txt` for d, `3-type-hiscore.tsv` for e
   
 - [**Supplemental Figure S6**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S6)
+   - Fig S6 a/b 由`Figure S6-a-b.R`完成,对应数据为all the tsv files.
+   - Fig S6 c/d/e 由`Figure S6-c-d-e-heatmap.R`，对应数据为`host-HI-infor-top10genus-with-family.tsv`和`host-HI-infor-top10genus-with-genus.tsv`
   
 - [**Supplemental Figure S7**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S7)
+   - Fig S7 b/c由`Figure S7-b-c.R`完成，对应数据为：`multi-phage-for-r.tsv` for b, `regulation-consistence-for-r.tsv` for c
   
 - [**Supplemental Figure S8**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S8)
+   - Fig S8 b由`Figure S8.R`完成，a/b对应数据文件超过github显示，如有需要，可通过邮件发送。
   
 - [**Supplemental Figure S9**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S9)
+   - Fig S9 a/b/c由`Figure S9.R`完成，对应数据文件：`phage-distri-by-env-percent.tsv` for all environments, `human-distri-by-env-percent.tsv` for human, `animal-distri-by-env-percent.tsv` for animal
   
 - [**Supplemental Figure S10**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S10)
+   - Fig S10 a/b/f由`FigureS10-a-b-f.R`完成，数据文件：`sdp-sip.txt` for genome size and completeness, `key-gene-data.tsv` for functional gene
+   - Fig S10 c对应数据为`functional_category_distribution.tsv`，注释文件为`functional_category_annotation.tsv`;Fig S10 d对应数据为`env-distribution.tsv`，注释文件为`env_annotation.tsv`;Fig S10 e对应数据为`host-distribution-top10-genus.tsv`，注释文件为`host-distribution-annotation.tsv`。可视化由[**Chiplot**](https://www.chiplot.online/#)完成
   
 - [**Supplemental Figure S11**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S11)
   
