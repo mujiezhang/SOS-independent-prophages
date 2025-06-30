@@ -9,11 +9,13 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
 
 ### 1. Prophage categorization
    
-- We use the pipeline we developed, PSOSP, to classify prophages into SOS-dependent prophages (SdP), SOS-uncertain prophages (SuPs), and SOS-independent prophages (SiPs). The PSOSP scripts and usage instructions are available at https://github.com/mujiezhang/PSOSP. The PSOSP web server is available at: https://vee-lab.sjtu.edu.cn/PSOSP/index.html.
+- We use the pipeline we developed, PSOSP, to classify prophages into SOS-dependent prophages (SdP), SOS-uncertain prophages (SuPs), and SOS-independent prophages (SiPs).
+- The PSOSP scripts and usage instructions are available at https://github.com/mujiezhang/PSOSP.
+- The PSOSP web server is available at: https://vee-lab.sjtu.edu.cn/PSOSP/index.html.
    
 ### 2. vOTU clustering based on ANI
    
-- 我们使用CheckV提供的[pipeline](https://bitbucket.org/berkeleylab/checkv/src/master/)进行了本文中vOTU的聚类，该pipeline基于all-versus-all BLASTn search和Leiden algorithm，following MIUViG guidelines (95% average nucleotide identity (ANI); 85% aligned fraction (AF)
+- We clustered vOTUs using the [CheckV pipeline](https://bitbucket.org/berkeleylab/checkv/src/master/), based all-versus-all BLASTn search and Leiden algorithm，following MIUViG guidelines (95% average nucleotide identity (ANI); 85% aligned fraction (AF)
   - step1: all-vs-all blastn
     ```
     makeblastdb -in all_virus.fna -dbtype nucl -out all_virus
@@ -30,7 +32,7 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
      
 ### 3.  Genus and Family level clustering based on AAI
 
-- 我们使用snayfach等人提供的[pipeline](https://github.com/snayfach/MGV/tree/master/aai_cluster)进行了本文中genus和family水平的聚类，该pipeline基于all-versus-all BLASTp search和MCL
+- We performed genus/family clustering using the [MGV pipeline](https://github.com/snayfach/MGV/tree/master/aai_cluster) based on all-vs-all BLASTp search and MCL
   - step1: all-vs-all blastp
     ```
     prodigal -a all_votu.faa  -i all_otu.fna   -p meta
@@ -41,7 +43,7 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
     ```
     python amino_acid_identity.py --in_faa query all_votu.faa --in_blast blastp.tsv --out_tsv aai.tsv
     ```
-    我们修改了amino_acid_identity.py line21:`print "parse"`→`print("parse")`; line38:`print "compute"`→`print("compute")`; line52:`print "write"`→`print("write")`以适应python3的语法
+    Note: Modified script `amino_acid_identity.py` for Python3 compatibility: line21:`print "parse"`→`print("parse")`; line38:`print "compute"`→`print("compute")`; line52:`print "write"`→`print("write")`
   - step3: Filter edges and prepare MCL input
     ```
     python filter_aai.py --in_aai aai.tsv --min_percent_shared 20 --min_num_shared 16 --min_aai 50 --out_tsv genus_edges.tsv
@@ -52,7 +54,7 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
     mcl genus_edges.tsv -te 8 -I 2.0 --abc -o genus_clusters.txt
     mcl family_edges.tsv -te 8 -I 1.2 --abc -o family_clusters.txt
     ```
-    我们修改了genus过滤参数中的--min_aai:`--min_aai 40`→`--min_aai 50`, following the parameters in their [paper](https://www.nature.com/articles/s41564-021-00928-6)
+    Note: Adjusted genus filtering to `--min_aai 50` following the parameters in their [paper](https://www.nature.com/articles/s41564-021-00928-6)
 
 ### 4. Protein sharing network analysis of viral populations was performed by vConTACT2
    ```
@@ -61,8 +63,7 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
    ```
 
 ### 5. Calculate the weighted Gene Repertoire Relatedness (wGRR)
-
-- 我们参考J. A. M. d. Sousa等人[paper](https://academic.oup.com/nar/article/51/6/2759/7068371?login=true)中的计算公式计算了本文中病毒间的wGRR
+- Calculated viral wGRR using the formula from [J. A. M. de Sousa et al. (2023)](https://academic.oup.com/nar/article/51/6/2759/7068371?login=true)
    ```
    diamond blastp --threads 50 --db viral_proteins.dmnd --out diamond.tsv --evalue 0.0001 --max-target-seqs 100000 --query  all_votu.faa --id  35 --query-cover 50 --subject-cover 50
    python calculate_wGRR.py diamond.tsv all_votu.faa result_file
