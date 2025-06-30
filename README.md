@@ -83,15 +83,23 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
    - `Figure2-f-distance.R`绘制Figure2 f phage-host dissimularity小提琴图，对应数据文件为`6_all_d2star_k6.txt`和`7_phage_codon_distance.txt`.
 
 - [**Supplemental Figure S1**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S1):
-  
+   - `Figure S1.R`绘制不同聚类方法的小提琴图，对应数据文件为`ecoli-k12-HI-predict-all.tsv`和`25point-all.tsv`.
 
 - [**Supplemental Figure S2**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S2)
-
+   - Fig S2 b 小提琴图由`Figure S2-b-violin-plot.R`实现，对应数据文件为`wp3.faa_intergenic_region.fna_pattern.txt_whole_genome_HI.txt` 和`wp3_point.tsv`。
+   - Fig S2 f qPCR数据为`qPCR_data.tsv`.
+     
 - [**Supplemental Figure S3**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S3)
-  
+   - Genome map由[**clinker**](https://github.com/gamcil/clinker)完成。
+   - 小提琴图由`Figure S3.R`实现，对应数据文件为`*.tsv` 和`*.txt`
+     
 - [**Supplemental Figure S4**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S4)
+   - Fig S4 c WP2小提琴图由`Figure S4-b-violin-plot.R`完成，对应数据文件为`wp2.faa_intergenic_region.fna_pattern.txt_whole_genome_HI.txt`和`wp2_point.tsv`
+   - Fig S4 c中数据文件为control组：`C-1_sorted.tdf`和`C-2_sorted.tdf`, MIMIC组：`M-1_sorted.tdf`,`M-2_sorted.tdf`,和`M-3_sorted.tdf`, 可视化由[IGV](https://igv.org/)实现
+   - Fig S4 d中VIP-Seq analysis的数据文件为`Figure S4-d. bar-plot-data.tsv`
   
 - [**Supplemental Figure S5**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S5)
+   - Fig S5 b/d/e 由`Figure S5-b-d-e.R`完成，对应数据文件：`class-distribution.tsv` for b, `1-6-cluster.txt` for d, `3-type-hiscore.tsv` for e
   
 - [**Supplemental Figure S6**](https://github.com/mujiezhang/SOS-independent-prophages/tree/main/scripts%20and%20data%20for%20figure/Supplemental%20Figure%20S6)
   
