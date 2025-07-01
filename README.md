@@ -86,7 +86,7 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
   python -m genome_spot.genome_spot --models models --contigs host_fna  --proteins host_faa --output host_spot
   tome predOGT --indir host_faa -o predicted_ogt.tsv > batch_Tome.log
   ```
-### Simulating genomes
+### 9. Simulating genomes
    ```
    
    ```
