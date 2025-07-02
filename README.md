@@ -74,21 +74,21 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
 
 ### 7. Assess nucleotide-level divergence between viral and host genomes
 
-- We calculated nucleotide-level divergence between viral and host genomes using [VirHostMatcher](https://github.com/jessieren/VirHostMatcher)
+- We calculated nucleotide-level divergence between viral and host genomes using [**VirHostMatcher**](https://github.com/jessieren/VirHostMatcher)
   ```
    python vhm.py -v prophage -b host -o output
   ```
 
 ### 8. Host growth features calculation
 
-- We computed host growth characteristics using [genomeSPOT](https://github.com/cultivarium/GenomeSPOT) and [Tome](https://github.com/EngqvistLab/Tome) 
+- We computed host growth characteristics using [**genomeSPOT**](https://github.com/cultivarium/GenomeSPOT) and [**Tome**](https://github.com/EngqvistLab/Tome) 
   ```
   python -m genome_spot.genome_spot --models models --contigs host_fna  --proteins host_faa --output host_spot
   tome predOGT --indir host_faa -o predicted_ogt.tsv > batch_Tome.log
   ```
 ### 9. Simulating genomes
 
-- Based on the methods of [CheckM](https://genome.cshlp.org/content/25/7/1043.full) and [CheckV](https://www.nature.com/articles/s41587-020-00774-7), we simulated bacterial genomes and viral genomes with varying completeness and contamination levels. Script for bacterial genomes: `generate_mock_host_genome.py`; Script for viral genomes: `generate_mock_provirus.py`
+- Based on the methods of [**CheckM**](https://genome.cshlp.org/content/25/7/1043.full) and [**CheckV**](https://www.nature.com/articles/s41587-020-00774-7), we simulated bacterial genomes and viral genomes with varying completeness and contamination levels. Script for simulating bacterial genomes: `generate_mock_host_genome.py`; Script for simulating viral genomes: `generate_mock_provirus.py`
    ```
    python generate_mock_host_genome.py bacterial_genome -c target_completeness -cont target_comtamination  -cg dir-for-contaminant-genomes -o output_file
    python generate_mock_provirus.py host_genome -p contig:viral_start-virla_end -c target_completeness -cont target_comtamination -o output_file
