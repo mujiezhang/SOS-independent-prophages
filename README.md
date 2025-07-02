@@ -58,14 +58,18 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
 
 ### 4. Protein sharing network analysis of viral populations was performed by vConTACT2
    ```
+   # prepare input
    vcontact2_gene2genome -p all_votu_and_ICTV_phages.faa -o gene2genome.csv -s Prodigal-FAA
+   # run vcontact2
    vcontact2 -r all_votu_and_ICTV_phages.faa -p gene2genome.csv --db None -o votu_ICTV_vcontact2 -t 64
    ```
 
 ### 5. Calculate the weighted Gene Repertoire Relatedness (wGRR)
 - Calculated viral wGRR using the formula from [**J. A. M. de Sousa et al. (2023)**](https://academic.oup.com/nar/article/51/6/2759/7068371?login=true)
    ```
+   # make blastdb
    diamond blastp --threads 50 --db viral_proteins.dmnd --out diamond.tsv --evalue 0.0001 --max-target-seqs 100000 --query  all_votu.faa --id  35 --query-cover 50 --subject-cover 50
+   # calculate wGRR
    python calculate_wGRR.py diamond.tsv all_votu.faa result_file
    ```
 ### 6. Enrichment analysis
@@ -83,14 +87,18 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
 
 - We computed host growth characteristics using [**genomeSPOT**](https://github.com/cultivarium/GenomeSPOT) and [**Tome**](https://github.com/EngqvistLab/Tome) 
   ```
+  # genomeSPOT
   python -m genome_spot.genome_spot --models models --contigs host_fna  --proteins host_faa --output host_spot
+  # Tome
   tome predOGT --indir host_faa -o predicted_ogt.tsv > batch_Tome.log
   ```
 ### 9. Simulating genomes
 
 - Based on the methods of [**CheckM**](https://genome.cshlp.org/content/25/7/1043.full) and [**CheckV**](https://www.nature.com/articles/s41587-020-00774-7), we simulated bacterial genomes and viral genomes with varying completeness and contamination levels. Script for simulating bacterial genomes: `generate_mock_host_genome.py`; Script for simulating viral genomes: `generate_mock_provirus.py`
    ```
+   # to simulate a host genome with target genome completeness and contamination
    python generate_mock_host_genome.py bacterial_genome -c target_completeness -cont target_comtamination  -cg dir-for-contaminant-genomes -o output_file
+   # to simulate a viral genome with target genome completeness and contamination
    python generate_mock_provirus.py host_genome -p contig:viral_start-virla_end -c target_completeness -cont target_comtamination -o output_file
    ```
 
