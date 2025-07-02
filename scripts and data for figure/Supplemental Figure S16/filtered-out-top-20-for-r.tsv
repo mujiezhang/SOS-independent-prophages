@@ -1,0 +1,101 @@
+genus	family	reason	num
+g__Streptococcus	f__Streptococcaceae	no prophage	353
+g__Streptococcus	f__Streptococcaceae	unqualified prophage	315
+g__Streptococcus	f__Streptococcaceae	no lexa	848
+g__Streptococcus	f__Streptococcaceae	no box	0
+g__Streptococcus	f__Streptococcaceae	fail	0
+g__Bacillus	f__Bacillaceae	no prophage	256
+g__Bacillus	f__Bacillaceae	unqualified prophage	5
+g__Bacillus	f__Bacillaceae	no lexa	1
+g__Bacillus	f__Bacillaceae	no box	1048
+g__Bacillus	f__Bacillaceae	fail	1
+g__Mycobacterium	f__Mycobacteriaceae	no prophage	895
+g__Mycobacterium	f__Mycobacteriaceae	unqualified prophage	7
+g__Mycobacterium	f__Mycobacteriaceae	no lexa	0
+g__Mycobacterium	f__Mycobacteriaceae	no box	256
+g__Mycobacterium	f__Mycobacteriaceae	fail	1
+g__Xanthomonas	f__Xanthomonadaceae	no prophage	220
+g__Xanthomonas	f__Xanthomonadaceae	unqualified prophage	86
+g__Xanthomonas	f__Xanthomonadaceae	no lexa	0
+g__Xanthomonas	f__Xanthomonadaceae	no box	327
+g__Xanthomonas	f__Xanthomonadaceae	fail	0
+g__Bacillus_A	f__Bacillaceae_G	no prophage	129
+g__Bacillus_A	f__Bacillaceae_G	unqualified prophage	11
+g__Bacillus_A	f__Bacillaceae_G	no lexa	1
+g__Bacillus_A	f__Bacillaceae_G	no box	440
+g__Bacillus_A	f__Bacillaceae_G	fail	0
+g__Campylobacter_D	f__Campylobacteraceae	no prophage	300
+g__Campylobacter_D	f__Campylobacteraceae	unqualified prophage	2
+g__Campylobacter_D	f__Campylobacteraceae	no lexa	274
+g__Campylobacter_D	f__Campylobacteraceae	no box	0
+g__Campylobacter_D	f__Campylobacteraceae	fail	0
+g__Listeria	f__Listeriaceae	no prophage	183
+g__Listeria	f__Listeriaceae	unqualified prophage	1
+g__Listeria	f__Listeriaceae	no lexa	1
+g__Listeria	f__Listeriaceae	no box	348
+g__Listeria	f__Listeriaceae	fail	0
+g__Corynebacterium	f__Mycobacteriaceae	no prophage	367
+g__Corynebacterium	f__Mycobacteriaceae	unqualified prophage	2
+g__Corynebacterium	f__Mycobacteriaceae	no lexa	0
+g__Corynebacterium	f__Mycobacteriaceae	no box	157
+g__Corynebacterium	f__Mycobacteriaceae	fail	0
+g__Helicobacter	f__Helicobacteraceae	no prophage	366
+g__Helicobacter	f__Helicobacteraceae	unqualified prophage	23
+g__Helicobacter	f__Helicobacteraceae	no lexa	41
+g__Helicobacter	f__Helicobacteraceae	no box	0
+g__Helicobacter	f__Helicobacteraceae	fail	0
+g__Enterococcus_B	f__Enterococcaceae	no prophage	29
+g__Enterococcus_B	f__Enterococcaceae	unqualified prophage	10
+g__Enterococcus_B	f__Enterococcaceae	no lexa	0
+g__Enterococcus_B	f__Enterococcaceae	no box	388
+g__Enterococcus_B	f__Enterococcaceae	fail	1
+g__Neisseria	f__Neisseriaceae	no prophage	81
+g__Neisseria	f__Neisseriaceae	unqualified prophage	3
+g__Neisseria	f__Neisseriaceae	no lexa	312
+g__Neisseria	f__Neisseriaceae	no box	4
+g__Neisseria	f__Neisseriaceae	fail	0
+g__Bifidobacterium	f__Bifidobacteriaceae	no prophage	164
+g__Bifidobacterium	f__Bifidobacteriaceae	unqualified prophage	2
+g__Bifidobacterium	f__Bifidobacteriaceae	no lexa	0
+g__Bifidobacterium	f__Bifidobacteriaceae	no box	170
+g__Bifidobacterium	f__Bifidobacteriaceae	fail	0
+g__Lactiplantibacillus	f__Lactobacillaceae	no prophage	29
+g__Lactiplantibacillus	f__Lactobacillaceae	unqualified prophage	7
+g__Lactiplantibacillus	f__Lactobacillaceae	no lexa	0
+g__Lactiplantibacillus	f__Lactobacillaceae	no box	296
+g__Lactiplantibacillus	f__Lactobacillaceae	fail	0
+g__Enterococcus	f__Enterococcaceae	no prophage	56
+g__Enterococcus	f__Enterococcaceae	unqualified prophage	1
+g__Enterococcus	f__Enterococcaceae	no lexa	0
+g__Enterococcus	f__Enterococcaceae	no box	267
+g__Enterococcus	f__Enterococcaceae	fail	0
+g__Wolbachia	f__Anaplasmataceae	no prophage	103
+g__Wolbachia	f__Anaplasmataceae	unqualified prophage	21
+g__Wolbachia	f__Anaplasmataceae	no lexa	174
+g__Wolbachia	f__Anaplasmataceae	no box	0
+g__Wolbachia	f__Anaplasmataceae	fail	0
+g__Brucella	f__Rhizobiaceae	no prophage	5
+g__Brucella	f__Rhizobiaceae	unqualified prophage	0
+g__Brucella	f__Rhizobiaceae	no lexa	0
+g__Brucella	f__Rhizobiaceae	no box	287
+g__Brucella	f__Rhizobiaceae	fail	0
+g__Lactobacillus	f__Lactobacillaceae	no prophage	131
+g__Lactobacillus	f__Lactobacillaceae	unqualified prophage	7
+g__Lactobacillus	f__Lactobacillaceae	no lexa	0
+g__Lactobacillus	f__Lactobacillaceae	no box	86
+g__Lactobacillus	f__Lactobacillaceae	fail	2
+g__Bradyrhizobium	f__Xanthobacteraceae	no prophage	91
+g__Bradyrhizobium	f__Xanthobacteraceae	unqualified prophage	3
+g__Bradyrhizobium	f__Xanthobacteraceae	no lexa	0
+g__Bradyrhizobium	f__Xanthobacteraceae	no box	127
+g__Bradyrhizobium	f__Xanthobacteraceae	fail	0
+g__Clostridioides	f__Peptostreptococcaceae	no prophage	62
+g__Clostridioides	f__Peptostreptococcaceae	unqualified prophage	1
+g__Clostridioides	f__Peptostreptococcaceae	no lexa	0
+g__Clostridioides	f__Peptostreptococcaceae	no box	157
+g__Clostridioides	f__Peptostreptococcaceae	fail	0
+g__Chlamydia	f__Chlamydiaceae	no prophage	204
+g__Chlamydia	f__Chlamydiaceae	unqualified prophage	0
+g__Chlamydia	f__Chlamydiaceae	no lexa	0
+g__Chlamydia	f__Chlamydiaceae	no box	0
+g__Chlamydia	f__Chlamydiaceae	fail	0

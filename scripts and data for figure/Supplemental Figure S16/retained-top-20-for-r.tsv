@@ -1,0 +1,121 @@
+genus	family	reason	num
+g__Escherichia	f__Enterobacteriaceae	no prophage	43
+g__Escherichia	f__Enterobacteriaceae	unqualified prophage	42
+g__Escherichia	f__Enterobacteriaceae	no lexa	0
+g__Escherichia	f__Enterobacteriaceae	no box	0
+g__Escherichia	f__Enterobacteriaceae	fail	27
+g__Escherichia	f__Enterobacteriaceae	keep	4207
+g__Klebsiella	f__Enterobacteriaceae	no prophage	138
+g__Klebsiella	f__Enterobacteriaceae	unqualified prophage	43
+g__Klebsiella	f__Enterobacteriaceae	no lexa	0
+g__Klebsiella	f__Enterobacteriaceae	no box	0
+g__Klebsiella	f__Enterobacteriaceae	fail	56
+g__Klebsiella	f__Enterobacteriaceae	keep	2854
+g__Salmonella	f__Enterobacteriaceae	no prophage	29
+g__Salmonella	f__Enterobacteriaceae	unqualified prophage	4
+g__Salmonella	f__Enterobacteriaceae	no lexa	0
+g__Salmonella	f__Enterobacteriaceae	no box	0
+g__Salmonella	f__Enterobacteriaceae	fail	0
+g__Salmonella	f__Enterobacteriaceae	keep	1921
+g__Pseudomonas	f__Pseudomonadaceae	no prophage	49
+g__Pseudomonas	f__Pseudomonadaceae	unqualified prophage	5
+g__Pseudomonas	f__Pseudomonadaceae	no lexa	0
+g__Pseudomonas	f__Pseudomonadaceae	no box	0
+g__Pseudomonas	f__Pseudomonadaceae	fail	42
+g__Pseudomonas	f__Pseudomonadaceae	keep	943
+g__Pseudomonas_E	f__Pseudomonadaceae	no prophage	220
+g__Pseudomonas_E	f__Pseudomonadaceae	unqualified prophage	18
+g__Pseudomonas_E	f__Pseudomonadaceae	no lexa	0
+g__Pseudomonas_E	f__Pseudomonadaceae	no box	2
+g__Pseudomonas_E	f__Pseudomonadaceae	fail	84
+g__Pseudomonas_E	f__Pseudomonadaceae	keep	840
+g__Enterobacter	f__Enterobacteriaceae	no prophage	37
+g__Enterobacter	f__Enterobacteriaceae	unqualified prophage	8
+g__Enterobacter	f__Enterobacteriaceae	no lexa	0
+g__Enterobacter	f__Enterobacteriaceae	no box	0
+g__Enterobacter	f__Enterobacteriaceae	fail	5
+g__Enterobacter	f__Enterobacteriaceae	keep	628
+g__Vibrio	f__Vibrionaceae	no prophage	307
+g__Vibrio	f__Vibrionaceae	unqualified prophage	10
+g__Vibrio	f__Vibrionaceae	no lexa	11
+g__Vibrio	f__Vibrionaceae	no box	0
+g__Vibrio	f__Vibrionaceae	fail	5
+g__Vibrio	f__Vibrionaceae	keep	446
+g__Burkholderia	f__Burkholderiaceae	no prophage	123
+g__Burkholderia	f__Burkholderiaceae	unqualified prophage	3
+g__Burkholderia	f__Burkholderiaceae	no lexa	0
+g__Burkholderia	f__Burkholderiaceae	no box	0
+g__Burkholderia	f__Burkholderiaceae	fail	0
+g__Burkholderia	f__Burkholderiaceae	keep	437
+g__Citrobacter	f__Enterobacteriaceae	no prophage	19
+g__Citrobacter	f__Enterobacteriaceae	unqualified prophage	4
+g__Citrobacter	f__Enterobacteriaceae	no lexa	0
+g__Citrobacter	f__Enterobacteriaceae	no box	0
+g__Citrobacter	f__Enterobacteriaceae	fail	1
+g__Citrobacter	f__Enterobacteriaceae	keep	354
+g__Aeromonas	f__Aeromonadaceae	no prophage	103
+g__Aeromonas	f__Aeromonadaceae	unqualified prophage	8
+g__Aeromonas	f__Aeromonadaceae	no lexa	0
+g__Aeromonas	f__Aeromonadaceae	no box	11
+g__Aeromonas	f__Aeromonadaceae	fail	1
+g__Aeromonas	f__Aeromonadaceae	keep	253
+g__Serratia	f__Enterobacteriaceae	no prophage	27
+g__Serratia	f__Enterobacteriaceae	unqualified prophage	0
+g__Serratia	f__Enterobacteriaceae	no lexa	0
+g__Serratia	f__Enterobacteriaceae	no box	0
+g__Serratia	f__Enterobacteriaceae	fail	0
+g__Serratia	f__Enterobacteriaceae	keep	190
+g__Proteus	f__Enterobacteriaceae	no prophage	2
+g__Proteus	f__Enterobacteriaceae	unqualified prophage	1
+g__Proteus	f__Enterobacteriaceae	no lexa	0
+g__Proteus	f__Enterobacteriaceae	no box	0
+g__Proteus	f__Enterobacteriaceae	fail	2
+g__Proteus	f__Enterobacteriaceae	keep	185
+g__Erwinia	f__Enterobacteriaceae	no prophage	24
+g__Erwinia	f__Enterobacteriaceae	unqualified prophage	4
+g__Erwinia	f__Enterobacteriaceae	no lexa	0
+g__Erwinia	f__Enterobacteriaceae	no box	0
+g__Erwinia	f__Enterobacteriaceae	fail	3
+g__Erwinia	f__Enterobacteriaceae	keep	131
+g__Yersinia	f__Enterobacteriaceae	no prophage	6
+g__Yersinia	f__Enterobacteriaceae	unqualified prophage	68
+g__Yersinia	f__Enterobacteriaceae	no lexa	0
+g__Yersinia	f__Enterobacteriaceae	no box	0
+g__Yersinia	f__Enterobacteriaceae	fail	32
+g__Yersinia	f__Enterobacteriaceae	keep	129
+g__Pasteurella	f__Pasteurellaceae	no prophage	22
+g__Pasteurella	f__Pasteurellaceae	unqualified prophage	18
+g__Pasteurella	f__Pasteurellaceae	no lexa	0
+g__Pasteurella	f__Pasteurellaceae	no box	0
+g__Pasteurella	f__Pasteurellaceae	fail	18
+g__Pasteurella	f__Pasteurellaceae	keep	124
+g__Edwardsiella	f__Enterobacteriaceae	no prophage	13
+g__Edwardsiella	f__Enterobacteriaceae	unqualified prophage	2
+g__Edwardsiella	f__Enterobacteriaceae	no lexa	0
+g__Edwardsiella	f__Enterobacteriaceae	no box	0
+g__Edwardsiella	f__Enterobacteriaceae	fail	16
+g__Edwardsiella	f__Enterobacteriaceae	keep	113
+g__Providencia	f__Enterobacteriaceae	no prophage	2
+g__Providencia	f__Enterobacteriaceae	unqualified prophage	0
+g__Providencia	f__Enterobacteriaceae	no lexa	0
+g__Providencia	f__Enterobacteriaceae	no box	0
+g__Providencia	f__Enterobacteriaceae	fail	1
+g__Providencia	f__Enterobacteriaceae	keep	98
+g__Pantoea	f__Enterobacteriaceae	no prophage	18
+g__Pantoea	f__Enterobacteriaceae	unqualified prophage	1
+g__Pantoea	f__Enterobacteriaceae	no lexa	0
+g__Pantoea	f__Enterobacteriaceae	no box	0
+g__Pantoea	f__Enterobacteriaceae	fail	1
+g__Pantoea	f__Enterobacteriaceae	keep	96
+g__Pectobacterium	f__Enterobacteriaceae	no prophage	22
+g__Pectobacterium	f__Enterobacteriaceae	unqualified prophage	4
+g__Pectobacterium	f__Enterobacteriaceae	no lexa	0
+g__Pectobacterium	f__Enterobacteriaceae	no box	0
+g__Pectobacterium	f__Enterobacteriaceae	fail	7
+g__Pectobacterium	f__Enterobacteriaceae	keep	77
+g__Dickeya	f__Enterobacteriaceae	no prophage	14
+g__Dickeya	f__Enterobacteriaceae	unqualified prophage	6
+g__Dickeya	f__Enterobacteriaceae	no lexa	0
+g__Dickeya	f__Enterobacteriaceae	no box	0
+g__Dickeya	f__Enterobacteriaceae	fail	0
+g__Dickeya	f__Enterobacteriaceae	keep	77
