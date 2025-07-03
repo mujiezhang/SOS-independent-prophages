@@ -11,7 +11,7 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
    
 - We use the pipeline we developed, PSOSP, to classify prophages into SOS-dependent prophages (SdP), SOS-uncertain prophages (SuPs), and SOS-independent prophages (SiPs).
 - The PSOSP scripts and usage instructions are available at **https://github.com/mujiezhang/PSOSP**.
-- The PSOSP web server is available at: **https://vee-lab.sjtu.edu.cn/PSOSP/index.html**.
+- The PSOSP web server is available at: **https://vee-lab.sjtu.edu.cn/PSOSP**.
    
 ### 2. vOTU clustering based on ANI
    
