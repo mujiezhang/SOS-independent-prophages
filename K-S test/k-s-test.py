@@ -4,20 +4,16 @@ from scipy import stats
 
 def ks_test_two_samples(list1, list2, alpha=0.05):
     """执行双样本Kolmogorov-Smirnov检验并返回详细结果"""
-    # 将列表转换为numpy数组
     arr1 = np.array(list1)
     arr2 = np.array(list2)
     
-    # 执行K-S检验
     ks_stat, p_value = stats.ks_2samp(arr1, arr2)
     
-    # 结果解释
     if p_value < alpha:
         interpretation = f"在{alpha}显著性水平下拒绝原假设: 两组数据分布不同"
     else:
         interpretation = f"在{alpha}显著性水平下无法拒绝原假设: 两组数据分布可能相似"
     
-    # 计算基本统计量
     stats1 = {
         'n': len(arr1),
         'mean': np.mean(arr1),
@@ -36,7 +32,6 @@ def ks_test_two_samples(list1, list2, alpha=0.05):
         'max': np.max(arr2)
     }
     
-    # 效应量评估 (基于D值)
     if ks_stat < 0.1:
         effect_size = "可忽略的差异"
     elif ks_stat < 0.2:
@@ -58,7 +53,6 @@ def ks_test_two_samples(list1, list2, alpha=0.05):
     }
 
 def print_ks_results(results):
-    """格式化打印K-S检验结果"""
     print(f"\n检验名称: {results['test_name']}")
     print(f"K-S统计量 (D值): {results['statistic']:.6f}")
     print(f"P值: {results['p_value']:.6f}")
