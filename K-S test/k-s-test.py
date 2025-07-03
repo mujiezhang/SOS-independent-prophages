@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jul  2 10:50:40 2025
-
-@author: zhang
-"""
 
 import numpy as np
 from scipy import stats
@@ -73,11 +67,10 @@ def print_ks_results(results):
     print(f"\n结论: {results['interpretation']}")
     print("=" * 70)
 
-# 主程序
 if __name__ == "__main__":
     # 第一个数据集处理
     list1, list2 = [], []
-    with open(r"E:\课题\4.tem-induce\imeta\8.line182-183-ks-test\key-gene-data.tsv") as f1:
+    with open(r"key-gene-data.tsv") as f1:
         for line in f1:
             parts = line.strip().split('\t')
             if parts[1].startswith('SiPs'):
@@ -91,7 +84,7 @@ if __name__ == "__main__":
     # 第二个数据集处理
     list3, list4 = [], []
     list5, list6 = [], []
-    with open(r"E:\课题\4.tem-induce\imeta\8.line182-183-ks-test\sdp-sip.txt") as f2:
+    with open(r"sdp-sip.txt") as f2:
         for line in f2:
             parts = line.strip().split('\t')
             if parts[-1].startswith('SiPs'):
