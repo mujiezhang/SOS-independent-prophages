@@ -1,7 +1,7 @@
 # SOS-independent-prophages
 This is the script repository for the following manuscript:
 
-Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SOS-independent prophages prevail in the bacterial genomes. xxx (2025)
+Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Taoliang Zhang, Yanping Zheng, Xiang Xiao, Huahua Jian*, SOS-independent prophages prevail in the bacterial genomes. xxx (2025)
 
 # Documents
 
