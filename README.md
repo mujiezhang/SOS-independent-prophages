@@ -21,11 +21,11 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
     makeblastdb -in all_virus.fna -dbtype nucl -out all_virus
     blastn -query all_virus.fna -db all_virus -outfmt '6 std qlen slen' -max_target_seqs 100000 -out my_blast.tsv -num_threads 64 -task megablast -evalue 1e-5
     ```
-  - step2: calculate ANI using script `anicalc.py`
+  - step2: calculate ANI using script `anicalc.py` from [**CheckV**](https://bitbucket.org/berkeleylab/checkv/src/master/scripts/)
     ```
     python anicalc.py -i my_blast.tsv -o my_ani.tsv
     ```
-  - step3: vOTU clustering using script `aniclust.py`
+  - step3: vOTU clustering using script `aniclust.py` from [**CheckV**](https://bitbucket.org/berkeleylab/checkv/src/master/scripts/)
     ```
     python aniclust.py --fna all_virus.fna --ani my_ani.tsv --out my_clusters.tsv --min_ani 95 --min_tcov 85 --min_qcov 0
     ```
@@ -39,17 +39,17 @@ Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Xiang Xiao, Huahua Jian*, SO
     diamond makedb --in all_votu.faa --db viral_proteins --threads 10
     diamond blastp --query all_votu.faa --db viral_proteins.dmnd --out blastp.tsv --outfmt 6 --evalue 1e-5 --max-target-seqs 1000000 --query-cover 50 --subject-cover 50
     ```
-  - step2: calculate AAI
+  - step2: calculate AAI (script `amino_acid_identity.py` is downloaded from [**MGV pipeline**](https://github.com/snayfach/MGV/tree/master/aai_cluster))
     ```
     python amino_acid_identity.py --in_faa query all_votu.faa --in_blast blastp.tsv --out_tsv aai.tsv
     ```
     Note: Modified script `amino_acid_identity.py` for Python3 compatibility: line21:`print "parse"`→`print("parse")`; line38:`print "compute"`→`print("compute")`; line52:`print "write"`→`print("write")`
-  - step3: Filter edges and prepare MCL input
+  - step3: Filter edges and prepare MCL input (script `filter_aai.py` is downloaded from [**MGV pipeline**](https://github.com/snayfach/MGV/tree/master/aai_cluster))
     ```
     python filter_aai.py --in_aai aai.tsv --min_percent_shared 20 --min_num_shared 16 --min_aai 50 --out_tsv genus_edges.tsv
     python filter_aai.py --in_aai aai.tsv --min_percent_shared 10 --min_num_shared 8 --min_aai 20 --out_tsv family_edges.tsv
     ```
-  - step4: Genus and family level clustering based on MCL
+  - step4: Genus and family level clustering based on MCL 
     ```
     mcl genus_edges.tsv -te 8 -I 2.0 --abc -o genus_clusters.txt
     mcl family_edges.tsv -te 8 -I 1.2 --abc -o family_clusters.txt
