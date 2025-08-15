@@ -1,7 +1,7 @@
 # SOS-independent-prophages
-This is the script repository for the following manuscript:
+This is the script repository for the following paper:
 
-Yali Hao#, Mujie Zhang#, Xinjuan Lei, Chengrui Zhu, Taoliang Zhang, Yanping Zheng, Xiang Xiao, Huahua Jian*, SOS-independent prophages prevail in the bacterial genomes. xxx (2025)
+Hao, Yali, Mujie Zhang, Xinjuan Lei, Chengrui Zhu, Taoliang Zhang, Yanping Zheng, Xiang Xiao, and Huahua Jian. 2025. “PSOSP Uncovers Pervasive SOS‐Independent Prophages With Distinct Genomic and Host Traits in the Bacterial Genomes.” iMeta e70073. https://doi.org/10.1002/imt2.70073
 
 # Documents
 
